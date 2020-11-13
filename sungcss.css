@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(42, 165, 42);
+}
+
+section {
+    margin: 50px auto;
+    width: 1025;
+    height: 150;
+}
+
+.bloco {
+    width: 755px;
+    background-color: lightgreen;
+}
+
+#menu {
+    width: 100%;
+}
+
+#menu ul {
+    margin: 0% 0%;
+    background-color: black;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font-size: 25px;
+    padding: 13px 25px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: lightgreen;
+}
+
+.menu#logo {
+    margin-right: 0%;
+}
+
+* {
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(101, 175, 27);
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h2 {
+    font-style: oblique;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-style: unset;
+    font-size: larger;
+    line-height: 30px;
+}
+
+b {
+    color: rgb(42, 165, 42);
+}
+
+.image {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+}
+
+.image .text {
+    position: absolute;
+    width: 100%;
+    top: 85px;
+}
+
+h1.texto {
+    margin-top: -390px;
+    position: absolute;
+    margin-left: 300px;
+    margin-right: 330px;
+    font-size: 60px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #f7f7f7;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #ffffff, 0 0 50px #000000, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
+    }
+}
+
+span {
+    font-size: 25px;
+}
